@@ -1,0 +1,11 @@
+### GET ALL ENVIROMENT DATA
+GET http://localhost:3000/api
+
+### POST NEW ENVIROMENT DATA
+POST http://localhost:3000/api
+Content-Type: application/json
+
+{
+    "temperature": 17,
+    "humidity": 23
+}
